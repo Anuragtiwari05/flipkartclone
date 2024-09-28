@@ -1,0 +1,253 @@
+*{
+    font-family: arial;
+    margin: 0;
+    border: border-box;
+}
+.navbar{
+    height: 67px;
+   padding: 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 40px;
+    width: 160px;
+}
+.logo{
+    background-image: url("logo.png");
+    background-color: #ffffff;
+    padding-right: 20px;
+}
+.serach{
+height: 40px;
+width: 480px;
+background-color: lightgrey;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.serach:hover{
+    border: 2px solid black;
+}
+.searchicon{
+color: grey;
+background-color:  gainsboro;
+width: 44px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 10px 10px 10px 10px;
+}
+.searchinput{
+width: 100vw;
+height: 40px;
+font-size: 17px;
+display: flex;
+align-items: center;
+border: none;
+}
+.acc{
+    height: 40px;
+    width: 700px;
+    padding: 8px;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400px;
+}
+.acc :hover{
+    border: 1px solid black;
+}
+.man{
+   
+align-items: flex-start;
+}
+.cart:hover{
+    border: 1px solid black;
+}
+.home:hover{
+    border: 1px solid black;
+}
+.dot:hover{
+    border: 1px solid black;
+}
+.cart{
+    padding: 0px 8px 0px 0px;
+    font-weight: 500px;
+    display: flex;
+    padding-left: 10px;
+}
+.all{
+    background-color: gainsboro;
+}
+.diverse{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grocery{
+    height: 140px;
+    width: 130px;
+    padding: 16px 16px 16px 24px;
+    
+}
+.application{
+    height: 140px;
+    width: 130px;
+}
+.phone{
+    height: 140px;
+    width: 130px;
+}
+.washing{
+    height: 140px;
+    width: 130px;
+}
+.clothes{
+    height: 140px;
+    width: 130px;
+}
+.furniture{
+    height: 140px;
+    width: 130px;
+}
+.toy{
+    height: 140px;
+    width: 130px;
+}
+.train{
+    height: 140px;
+    width: 130px;
+}
+.plane{
+    height: 140px;
+    width: 130px;
+}
+.sale{
+    height: 230px;
+    width: 100%;
+}
+.boe{
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+}
+.app{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.elec1{
+    height: 100px;
+    width: 100%;
+}
+.elec2{
+    height: 100px;
+    width: 100%;
+}
+.elec3{
+    height: 100px;
+    width: 100%;
+}
+.elec4{
+    height: 100px;
+    width: 100%;
+}
+.bof{
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+}
+.fas{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   padding-left: 100px;
+    font-style: arial;
+    font-size: 16px;
+}
+.fas1{
+    height: 100px;
+    width: 100%;
+}
+.fas2{
+    height: 100px;
+    width: 100%;
+}
+.fas3{
+    height: 100px;
+    width: 100%;
+}
+.fas4{
+    height: 100px;
+    width: 100%;
+}
+.side{
+   height: 600px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.sell{
+    height: 600px;;
+    width: 900px;
+}
+.bestgad{
+    height: 600px;
+    width: 500px;
+    padding-left: 20px;
+    background-color: white;
+    padding: none;
+}
+.up{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.down{
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+}
+.footer{
+    margin-top: 15px;
+       }
+    
+    .foot1{
+      background-color: gainsboro;
+      color: grey;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.5rem;
+    }
+    .foot2{
+      background-color: gainsboro;
+      color: grey;
+      height: 500px;
+      display: flex;
+      justify-content: space-evenly;
+    
+    }
+    ul a{
+      display: block;
+      font-size: 0.85rem;
+      margin-top: 10px;
+      color: grey;
+    }
